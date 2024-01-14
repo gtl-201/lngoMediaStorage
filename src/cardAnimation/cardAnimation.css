@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    overscroll-behavior-y: contain;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+      sans-serif;
+    position: fixed;
+    overflow: hidden;
+  }
+  
+  .rootis {
+    background: #000000;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39, auto;
+  }
+  
+  .rootis > div {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rootis > .out1 > .out2 {
+    background-color: white;
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35vh;
+    max-width: 550px;
+    height: 60vh;
+    max-height: 900px;
+    will-change: transform;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px -10px white, 0 5px 20px -10px white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* .rootis > .out1 > .out2:hover {
+    box-shadow: 0 15px 100px -10px white, 0 10px 15px -10px white;
+  } */
+  .rootis > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+  }
+  .Title {
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Pacifico';
+    letter-spacing: 4;
+    color: white;
+    text-align: center;
+  }
+  .loveThuy {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Rubik Doodle Shadow';
+    letter-spacing: 3;
+    color: #ffd401;
+    /* box-shadow: 0 15px 100px -10px white, 0 10px 15px -10px white; */
+  }
+  .Subtitle {
+    font-size: 30px;
+    font-weight: 800;
+    width: 35vh;
+    max-width: 550px;
+    font-family: 'Rubik Doodle Shadow';
+    letter-spacing: 3;
+    color: #ffd401;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  
