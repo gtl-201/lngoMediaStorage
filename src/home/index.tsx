@@ -49,7 +49,7 @@ export const Home = () => {
                                                     </div>
                                                     <div className="file-name">
                                                         <p className="m-b-5 text-muted text-truncate" title={photo.name}>{photo.name}</p>
-                                                        <small><span className="date text-muted p-b-4">{(new Date(photo.createdDate).toISOString().replace(/T(.*?)Z$/i, ''))}</span></small>
+                                                        {/* <small><span className="date text-muted p-b-4">{(new Date(photo.createdDate).toISOString().replace(/T(.*?)Z$/i, ''))}</span></small> */}
                                                     </div>
                                                 </div>
                                             </div>

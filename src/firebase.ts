@@ -6,13 +6,13 @@ import { FirebaseStorage, StorageReference, getDownloadURL, getStorage, ref, upl
 import { createUserWithEmailAndPassword, getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD8k_Gdu3nT8caLgPifa5QJLXQQVQ7JbF4",
-  authDomain: "imagestorage-20005.firebaseapp.com",
-  projectId: "imagestorage-20005",
-  storageBucket: "imagestorage-20005.appspot.com",
-  messagingSenderId: "749630891452",
-  appId: "1:749630891452:web:4e2c20d8a09e0b7f5b77b9",
-  measurementId: "G-V4RCMSB405"
+  apiKey: "AIzaSyA1IV9m_swruXzr7alKcoTiLLR8wph-vOk",
+  authDomain: "mediacollector-c19c9.firebaseapp.com",
+  projectId: "mediacollector-c19c9",
+  storageBucket: "mediacollector-c19c9.appspot.com",
+  messagingSenderId: "775309251142",
+  appId: "1:775309251142:web:a3c9b458d000240057b047",
+  measurementId: "G-TVJRPHNQL9"
 };
 
 export const firebaseApp = (): FirebaseApp => {
